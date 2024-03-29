@@ -12,7 +12,7 @@
   }
   
   header {
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     background: #e4b184;
     color: rgb(246, 242, 242);
@@ -22,12 +22,13 @@
   nav {
     display: flex;
     background-color: #e4b184;
-    justify-content: right
+    justify-content: right;
+    font-size: 30px;
   }
   
   nav a {
-    color: #080808e3;
-    padding: 14px 20px;
+    color: #fff8f8e7;
+    padding: 20px;
     text-decoration: underline;
     text-align: right;
   }
@@ -40,23 +41,15 @@
     margin-top: auto;
   }
   
-  .product {
-    display: flex;
-    width: 90%;
+  .mood-board {
+   flex-grow: 800px;
     margin: 1% auto;
-  }
   
-  .product button {
-    font-size: 150%;
-  }
-  
-  .product-slideshow {
-    display: flex;
-  align-items: center;
   }
   
   .product-image {
-    width: 100%;
+    width: 50%;
+    display: flex;
   }
   
   .product-details {
@@ -69,11 +62,6 @@
     nav,
     .product {
       flex-direction: column;
-    }
-  
-    .product-slideshow button {
-      /* Removes the slideshow buttons from the document flow */
-      display: none;
     }
   
     .product-details {
