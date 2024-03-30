@@ -28,14 +28,7 @@ body {
     padding: 20px;
     text-decoration: underline;
     text-align: right;
-  }
-  
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-    margin-top: auto;
+
   }
   body, html {
     height: 16px;
@@ -86,39 +79,16 @@ img {
   font-size: 16px;
   padding-left: 20px;
 }
-.card {
-  border-style: solid;
-  border-width: 1px;
-  padding: 10px;
-  float: left;
-  width: 25%;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.card header {
+
+footer {
   padding: 20px;
-}
-
-.card p {
   text-align: center;
-  float: left;
-  width: 55%;
-
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
 }
 
-.card img {
-  width: 400%;
-  display: flex;
-  padding: 4% 4px;
-}
-
-.h1 {
-  display: flex;
-  flex-flow: row wrap;
-}
   @media screen and (max-width: 768px) {
     main,
     nav,
