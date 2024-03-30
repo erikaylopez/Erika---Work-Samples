@@ -91,7 +91,6 @@ img {
   height: 50vh;
   margin: 0 auto;
 }
-
 .card header {
   font-size: 40px;
   padding: 0px;
@@ -101,6 +100,16 @@ img {
   justify-content: flex-start; 
   flex-flow:row wrap; 
 }
+.card-text {
+  text-align: -webkit-center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 
 .card p { 
   font-size: 40px;
@@ -112,12 +121,9 @@ img {
   flex-flow:row wrap; 
 }
 
-.card img {
+.card-image {
   width: 60%;
   padding: 0px;
-  display: flex;
-  justify-content: flex-start; 
-  flex-flow:row wrap; 
 }
 
   @media screen and (max-width: 768px) {
