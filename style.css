@@ -94,6 +94,24 @@ img {
   padding: 0px;
 }
 
+/* The user's cursor is positioned over the element */
+button:hover {
+  background-color: #cf8b26;
+  color: #fff;
+}
+
+/* The user is actively pressing down on the element */
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #cf8b26 inset;
+}
+
+/* The element is currently in focus, either by tabbing to or clicking on it */
+button:focus {
+  outline: none;
+  border-color: #cf8b26;
+}
+ 
   @media screen and (max-width: 768px) {
     main,
     nav,
