@@ -96,6 +96,7 @@ img {
 
 /* The user's cursor is positioned over the element */
 button:hover {
+  cursor: pointer;
   background-color: #cf8b26;
   color: #fff;
 }
